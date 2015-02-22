@@ -1,0 +1,29 @@
+{
+  "name": "ember-select-component",
+  "version": "0.0.1",
+  "homepage": "https://github.com/grese/ember-select-component",
+  "authors": [
+    "grese <grese@yahoo-inc.com>"
+  ],
+  "description": "A select2 component for ember.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests",
+    "build",
+    "Gruntfile.js",
+    "karma.conf.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "ember": "~1.8.1",
+    "select2": "~3.5.2",
+    "fontawesome": "*"
+  },
+  "devDependencies": {
+    "qunit": "~1.16.0",
+    "ember-qunit-builds": "git://github.com/rwjblue/ember-qunit-builds.git"
+  }
+}

@@ -1,7 +1,13 @@
 # ember-select-component
 A select/multiselect/tags component for EmberJS based on "select2".
 
-## Usage
+## Installation:
+* This component requires select2 and ember, so those files must be included in the browser.
+* Include the select2 stylesheet.
+* Include dist/ember-select-component.js
+* Include dist/ember-select-component.css (only if you want the overridden styles)
+
+## Usage:
 ```
 {{select-component
   width='100%', // allows setting the width of the dropdown.
