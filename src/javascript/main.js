@@ -7,7 +7,7 @@
             this._super();
         },
         tagName: 'input',
-        classNames: ['select-component', 'form-control'],
+        classNames: ['select-component'],
         classNameBindings: ['_inputSize'],
         attributeBindings: ['disabled'],
 
