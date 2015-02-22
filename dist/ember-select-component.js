@@ -34,6 +34,8 @@
         multiple: false,
         arrowDownIcon: 'fa fa-angle-down',
         arrowUpIcon: 'fa fa-angle-up',
+        searchable: true,
+        minimumResultsForSearch: 3,
 
 
         //Provides bootstrap input-size functionality.
@@ -61,6 +63,7 @@
             // setup
             options.placeholder = this.get('placeholder');
             options.multiple = this.get('multiple');
+            options.minimumResultsForSearch = this.get('searchable') ? this.get('minimumResultsForSearch') : -1;
 
             // Function to format the result:
             options.formatResult = function(item) {
