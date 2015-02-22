@@ -67,7 +67,9 @@ input.select-component.form-control{
     left: auto;
     right: 3px;
 }
-.select-component.select2-container.select2-container-active .select2-choices{
+.select-component.select2-container.select2-container-active .select2-choices,
+.select-component.select2-dropdown-open.select2-drop-above .select2-choice,
+.select-component.select2-dropdown-open.select2-drop-above .select2-choices{
     border-top-color: rgb(106, 176, 232);
     border-right-color: rgb(106, 176, 232);
     border-left-color: rgb(106, 176, 232);
