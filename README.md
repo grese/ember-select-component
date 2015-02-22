@@ -20,5 +20,7 @@ A select/multiselect/tags component for EmberJS based on "select2".
   disabled=selectDisabled, // (true || false)
   content=selectOptions // options for dropdown (array)
   value=selection // the value to bind to (array or string)
+  searchable=true // (true || false)
+  minimumResultsForSearch=3 // the minimum # of items req'd to show search box.
 }}
 ```

@@ -1,6 +1,6 @@
 {
 	"name": "ember-select-component",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "A select2 component for emberjs.",
 	"repository": {
 		"type": "git",
