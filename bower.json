@@ -5,6 +5,7 @@
   "authors": [
     "grese <grese@yahoo-inc.com>"
   ],
+  "main": "dist/ember-select-component.js",
   "description": "A select2 component for ember.",
   "license": "MIT",
   "ignore": [
