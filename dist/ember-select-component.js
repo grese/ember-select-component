@@ -7,27 +7,12 @@
             this._super();
         },
         tagName: 'input',
-        classNames: ['select-component', 'multiselect'],
+        classNames: ['select-component', 'form-control'],
         classNameBindings: ['_inputSize'],
-        attributeBindings: ['_style:style', 'disabled'],
-
-        // Computed property to turn style-related properties to css for style attribute.
-        _style: function(){
-            var css = {
-                    width: this.get('width')
-                },
-                style = '';
-
-            for(var prop in css){
-                if(css[prop] !== null){
-                    style += (prop + ':' + css[prop] + '; ');
-                }
-            }
-            return style;
-        }.property('width'),
+        attributeBindings: ['disabled'],
 
         //Bindings that may be overwritten in the template
-        width: '100%',
+        width: null,
         inputSize: null,
         optionValuePath: null,
         placeholder: null,
@@ -64,6 +49,9 @@
             options.placeholder = this.get('placeholder');
             options.multiple = this.get('multiple');
             options.minimumResultsForSearch = this.get('searchable') ? this.get('minimumResultsForSearch') : -1;
+            options.width = this.get('width');
+
+
 
             // Function to format the result:
             options.formatResult = function(item) {

@@ -1,4 +1,17 @@
 /* Some custom styles for the select2-component. */
+input.select-component.form-control{
+    display: block;
+    width: auto;
+    padding: 0;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -o-transition: none;
+    transition: none;
+}
 .select-component.select2-container .select2-choice{
     height: 32px;
     line-height: 30px;
