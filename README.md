@@ -10,7 +10,7 @@ A select/multiselect/tags component for EmberJS based on "select2".
 ## Usage:
 ```
 {{select-component
-  width='100%', // allows setting the width of the dropdown.
+  width='250px', // allows setting the width of the dropdown.
   inputSize='sm', // ('sm' || 'md' || 'lg') *md is default 
   optionValuePath='id', // when provided, values will be strings instead of objects.
   placeholder='Select an option.', // placeholder text
