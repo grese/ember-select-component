@@ -21,6 +21,8 @@
         arrowUpIcon: 'fa fa-angle-up',
         searchable: true,
         minimumResultsForSearch: 3,
+        dropdownAutoWidth: false,
+        selectOnBlur: true,
 
 
         //Provides bootstrap input-size functionality.
@@ -50,6 +52,11 @@
             options.multiple = this.get('multiple');
             options.minimumResultsForSearch = this.get('searchable') ? this.get('minimumResultsForSearch') : -1;
             options.width = this.get('width');
+            options.selectOnBlur = this.get('selectOnBlur');
+
+            if(this.get('dropdownAutoWidth')){
+                options.dropdownAutoWidth = true;
+            }
 
 
 
